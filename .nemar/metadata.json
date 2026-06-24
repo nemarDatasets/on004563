@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Vicarious touch: overlapping neural patterns between seeing and feeling touch",
+  "description": "This dataset contains whole-brain EEG recordings from participants experiencing tactile stimulation and viewing videos of touch to investigate overlapping neural representations between firsthand and vicarious touch. Using time-resolved multivariate pattern analysis, the study examines whether observed touch evokes similar neural patterns to direct tactile experience across individuals with varying susceptibility to vicarious touch sensations. The dataset includes 64-channel EEG data collected at 2048 Hz during 12 experimental runs comprising 1728 trials of tactile and visual stimuli.",
+  "methods_description": "Whole-brain 64-channel EEG data were recorded using an Active Two Biosemi system at 2048 Hz with 10-20 standard electrode placement. Participants completed 12 runs divided into four blocks of 36 trials each, alternating between tactile stimulation to the fingers and matched videos of touch to another person's fingers. Each run lasted approximately 7-8 minutes with inter-trial intervals of 800 ms. Stimuli were presented using MATLAB and Psychtoolbox. Both raw and processed data are provided.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -10,12 +12,27 @@
     "Regine Zopf": {},
     "Anina N Rich": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004563.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "touch perception"
+    },
+    {
+      "term": "vicarious experience"
+    },
+    {
+      "term": "multivariate pattern analysis"
+    },
+    {
+      "term": "somatosensory cortex"
+    },
+    {
+      "term": "visual perception"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004563",
       "identifier_type": "URL",
@@ -30,14 +47,19 @@
       "identifier": "10.1101/2022.06.21.497107",
       "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004563.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "185.2 GB (556 files)"
   ],
   "formats": [
     ".bdf",
@@ -50,29 +72,8 @@
     ".png",
     ".set",
     ".tsv",
-    ".txt"
+    ".txt",
+    ".yml"
   ],
-  "description": "This dataset contains whole-brain EEG recordings from participants experiencing tactile stimulation and viewing videos of touch to investigate overlapping neural representations between firsthand and vicarious touch. Using time-resolved multivariate pattern analysis, the study examines whether observed touch evokes similar neural patterns to direct tactile experience across individuals with varying susceptibility to vicarious touch sensations. The dataset includes 12 experimental runs with 1728 trials (864 tactile and 864 visual) recorded at 2048 Hz from 64-channel EEG.",
-  "methods_description": "EEG data were collected using a 64-channel Active Two Biosemi system at 2048 Hz with 10-20 standard electrode placement. Participants completed 12 runs divided into four blocks, each containing 36 trials alternating between tactile stimulation to the fingers and matched visual videos of touch. Inter-trial intervals were 800 ms, with each run lasting approximately 7-8 minutes. Stimuli were presented using MATLAB and Psychtoolbox.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "vicarious touch"
-    },
-    {
-      "term": "multivariate pattern analysis"
-    },
-    {
-      "term": "somatosensory cortex"
-    },
-    {
-      "term": "visual perception"
-    },
-    {
-      "term": "neural representation"
-    }
-  ],
-  "source_hash": "e7c806e215e0dba1d79e24edb7699cd1fffe0b0992084d8e1e5a5d908cdcd83f"
+  "source_hash": "d74611f62422ac4ddca01bae1fb912a6c52a618bc7c20e0ba415829fa69b1e06"
 }
