@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004563-blue)](https://doi.org/10.82901/nemar.on004563)
+
 Data collection took place at Macquarie University in Sydney Australia. The study was approved by the Macquarie University Ethics Committee.
 
 We used time-resolved multivariate pattern analysis on whole-brain EEG data from people with and without vicarious touch experiences to test whether seen touch evokes overlapping neural representations with the first-hand experience of touch. Participants felt touch to the fingers (tactile trials) or watched carefully matched videos of touch to another person’s fingers (visual trials). 
