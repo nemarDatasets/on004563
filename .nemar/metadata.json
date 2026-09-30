@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Vicarious touch: overlapping neural patterns between seeing and feeling touch",
-  "description": "This dataset contains whole-brain EEG recordings from participants experiencing tactile stimulation and viewing videos of touch to investigate overlapping neural representations between firsthand and vicarious touch. Using time-resolved multivariate pattern analysis, the study examines whether observed touch evokes similar neural patterns as direct tactile experience. The dataset includes 64-channel EEG data collected at 2048 Hz from 12 experimental runs comprising 1728 trials across tactile and visual conditions.",
-  "methods_description": "Whole-brain 64-channel EEG data were recorded using an Active Two Biosemi system at 2048 Hz with 10-20 standard electrode placement. Participants completed 12 runs divided into four blocks of 36 trials each, alternating between tactile stimulation to the fingers and viewing matched videos of touch. An 800 ms inter-trial interval separated trials, with each run lasting approximately 7-8 minutes. Stimuli were presented using MATLAB and Psychtoolbox.",
+  "description": "This dataset contains 64-channel EEG recordings from people with and without vicarious touch experiences. Participants either felt touch to their fingers or watched matched videos of touch to another person's fingers. It was collected to test, using time-resolved multivariate pattern analysis, whether seen touch evokes neural representations that overlap with first-hand touch. Raw and processed data, code and stimuli are included.",
+  "methods_description": "Whole-brain EEG was recorded with a 64-channel Biosemi Active Two system at 2048 Hz using 10-20 standard caps. Participants completed 12 runs of four blocks, each with 36 trials alternating between tactile and visual touch. There were 1728 analysed trials (864 tactile, 864 visual) plus 240 target trials that were excluded. The inter-trial interval was 800 ms. Stimuli were presented with MATLAB and Psychtoolbox.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -17,16 +17,18 @@
       "term": "EEG"
     },
     {
-      "term": "touch perception"
+      "term": "vicarious touch"
     },
     {
-      "term": "vicarious experience"
+      "term": "Touch Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D055698"
     },
     {
       "term": "multivariate pattern analysis"
     },
     {
-      "term": "somatosensory cortex"
+      "term": "tactile perception"
     },
     {
       "term": "visual perception"
@@ -39,11 +41,6 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004563",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.1101/2022.06.21.497107",
       "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
@@ -52,6 +49,11 @@
       "identifier": "10.18112/openneuro.ds004563.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004563",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_specific": "EEG Dataset",
@@ -59,7 +61,7 @@
     "eeg"
   ],
   "sizes": [
-    "185.2 GB (556 files)"
+    "172 GB (556 files)"
   ],
   "formats": [
     ".bdf",
